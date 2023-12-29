@@ -30,6 +30,10 @@ function downloadQrCode() {
 
         // Klicke auf den Link, um den Download zu starten
         link.click();
+
+        document.getElementById('textInput').value = "";
+        document.getElementById('filenameInput').value = "";
+        generateQr();
     } else {
         alert("Generiere zuerst einen QR-Code, bevor du ihn herunterlädst.");
     }

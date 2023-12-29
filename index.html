@@ -12,7 +12,7 @@
     <div class="qrcode-container">
         <div class="qrcode"></div>
     </div>
-    <input type="text" placeholder="Füge eine URL oder Text ein und drücke ENTER" oninput="generateQr()"/>
+    <input type="text" placeholder="Füge eine URL oder Text ein und drücke ENTER" id="textInput" oninput="generateQr()"/>
     <input type="text" placeholder="Gib den Namen des QR-Codes ein." id="filenameInput">
     <div class="buttons">
         <button onclick="generateQr()" style="margin-right: 8%">Generiere</button>
