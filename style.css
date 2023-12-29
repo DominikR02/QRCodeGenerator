@@ -76,6 +76,10 @@ button:hover {
 
 /* Media Query für kleinere Bildschirme (z.B., Handys) */
 @media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
     input[type="text"], button {
         width: 100%; /* Fülle die gesamte Breite des Bildschirms aus */
         font-size: 14px; /* Reduziere die Textgröße */
