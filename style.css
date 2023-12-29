@@ -73,28 +73,3 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
-/* Media Query für kleinere Bildschirme (z.B., Handys) */
-@media only screen and (max-width: 600px) {
-    .container {
-        width: 100%;
-    }
-
-    input[type="text"], button {
-        width: 100%; /* Fülle die gesamte Breite des Bildschirms aus */
-        font-size: 14px; /* Reduziere die Textgröße */
-        margin-bottom: 10px; /* Erhöhe den Abstand zwischen den Elementen */
-    }
-
-    .buttons {
-        flex-direction: column; /* Ändere die Richtung der Buttons auf vertikal */
-    }
-
-    button {
-        width: 100%; /* Fülle die gesamte Breite des Bildschirms aus */
-    }
-
-    .qrcode-container {
-        margin: 15px 0; /* Verringere den Abstand des QR-Codes auf kleineren Bildschirmen */
-    }
-}
