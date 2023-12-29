@@ -28,7 +28,7 @@ h1 {
 }
 
 input[type="text"] {
-    width: 70%;
+    width: 80%;
     padding: 15px;
     font-size: 16px;
     border: 1px solid #007bff;
@@ -38,7 +38,7 @@ input[type="text"] {
 }
 
 .buttons {
-    width: 80%;
+    width: 90%;
     justify-content: space-between;
 }
 
