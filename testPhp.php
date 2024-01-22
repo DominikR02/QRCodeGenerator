@@ -6,5 +6,9 @@
 </head>
 <body>
 <h1>Hier entsteht mein erstes PHP Document</h1>
+
+<?php
+echo("Hallo Welt");
+?>
 </body>
 </html>
